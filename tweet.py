@@ -4,11 +4,11 @@ from textblob import TextBlob
 
 text = TextBlob("My name is daivik. I love sports !")
 
-consumer_key = 'MZF3S29VRdSOz66tDrk47g41H'
-consumer_secret = 'Am8cweOoY46VNX3MOzNPsWYaC1rNolwIjG0bS6S2ZlsTbGnRKw'
+consumer_key = ''
+consumer_secret = ''
 
-access_token = '849658531120676864-PBzUFnngLEER7io3uw5mshE89CrRCXm'
-access_token_secret = 'det7FnzEy4BB2x0gIygb4mvvD95UuAmrilnWlCeB48Oo0'
+access_token = ''
+access_token_secret = ''
 
 auth = tweepy.OAuthHandler(consumer_key,consumer_secret)
 auth.set_access_token(access_token,access_token_secret)
